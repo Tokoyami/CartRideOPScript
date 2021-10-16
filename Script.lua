@@ -1,5 +1,5 @@
 if not fireclickdetector then
-	CoreGui:SetCore("SendNotification", {
+	game.StarterGui:SetCore("SendNotification", {
 		Title = "Error";
 		Text = "Sadly, your DLL does not support this exploit. Please use OxygenU or any other exploit that support fireclickdetector.";
 		Duration = 10;
